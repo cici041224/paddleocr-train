@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# Paddle / training outputs
+output/
+*.pdparams
+*.pdopt
+*.pdmodel
+*.states
+
+# Datasets
+train_data/
+ocr_data/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Logs
+*.log
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
